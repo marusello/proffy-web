@@ -85,7 +85,7 @@ export default function TeacherList() {
         {teachers.map((teacher: Teacher) => {
           return <TeacherItem key={teacher.id} teacher={teacher} />
         })}
-      </main>S
+      </main>
     </div>
   )
 }
